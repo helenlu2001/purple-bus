@@ -1,0 +1,30 @@
+<html> 
+    <head>
+        <link href='./style.css' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>
+        <div class='color-cont'> 
+            <div class='red'></div>
+            <div class='orange'ri></div>
+            <div class='yellow'></div>
+            <div class='green'></div>
+            <div class='blue'></div>
+            <div class='indigo'></div>
+            <div class='purple'></div>
+            <div class='pink'></div>
+        </div>
+
+        <div class='instructions'> enter a 
+            <span class='red-text'>C</span><span class='orange-text'>O</span><span class='yellow-text'>L</span><span class='green-text'>O</span><span class='blue-text'>R</span> 
+            followed by a 
+            <span class='purple-text'>NOUN</span> 
+            to generate your alliterations </div> 
+        <input id='phrase-input' type='text' placeholder='color + noun ex. purple bus'/>
+        <button class='button' onclick='loadPhrases()'> Generate! </button> 
+        <div class='phrase-cont'>
+
+        </div>
+
+        <script src='./PurpleBus.js'></script>
+    </body>
+</html>
